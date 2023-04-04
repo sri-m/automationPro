@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test'
 import {Phptravels} from '../pages/phptravels.page'
-
+//add this lines
 
 test('fromAutomation', async ({ page }) => {
     const phptravels = new Phptravels(page);
